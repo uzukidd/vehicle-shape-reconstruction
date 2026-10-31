@@ -1,0 +1,11 @@
+# Notebook environment / Notebook 环境: shapepriors-gcpr16
+-r requirements-gcpr16.txt
+# Tensor scene input / 张量场景输入
+torch>=2
+# Interactive windows and the existing drawing helper / 交互窗口及现有绘图工具
+open3d>=0.18,<1
+matplotlib>=3.7,<4
+pillow>=9
+# Notebook kernel and format validation / Notebook 内核与格式校验
+ipykernel>=6,<8
+nbformat>=5,<6

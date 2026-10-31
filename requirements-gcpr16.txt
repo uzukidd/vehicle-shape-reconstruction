@@ -1,0 +1,6 @@
+# Environment / 环境: conda activate shapepriors-gcpr16
+# Tested / 已验证: Python 3.11.17, NumPy 2.4.6, scikit-image 0.26.0
+numpy>=1.24,<3
+scikit-image>=0.20,<1
+# Optional / 可选: torch>=2 for tensor input/output; pytorch3d for native Meshes.
+# Tensor adapter tested / 张量适配已验证: torch 2.15.0 on CPU.

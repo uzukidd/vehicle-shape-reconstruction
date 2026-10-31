@@ -10,6 +10,16 @@ Implementation of tools for reconstruction of vehicle shape.
 
 ## Usage
 
+### GCPR16 pretrained backend / GCPR16 预训练版本
+
+An independent backend now loads the original matrices directly and alternates pose and shape fitting. See the [English guide](asset/gcpr16_backend.md) or [中文说明](asset/gcpr16_backend.md#中文版) for compatible imports, coordinate conventions, and Windows/Linux launchers.
+
+新增独立版本，直接读取原版矩阵并交替优化位姿与形状。兼容导入、坐标约定及 Windows/Linux 入口见上方双语文档。
+
+Interactive scene example: [GCPR16 notebook](tools/scene_segmentation_gcpr16.ipynb), kernel `Python (shapepriors-gcpr16)`. Dependencies: [requirements-gcpr16-notebook.txt](requirements-gcpr16-notebook.txt).
+
+交互式场景示例见上方 GCPR16 Notebook，选择该专用内核；其流程与原场景 Notebook 对应，包含输入点云、位姿与形状拟合及车顶可视化。
+
 ### Vehicle reconstruction
 
 ![image-20240307114153371](README.assets/image-20240307114153371.png)

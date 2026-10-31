@@ -8,6 +8,8 @@ data/vehi_reconstructor_baidu_apollo.pt
 
 vehicle_reconstruction/version.py
 
+outputs/*
+
 rooftop_appro_kitti.pkl
 rooftop_appro.bin
 rooftop_appro.pkl
